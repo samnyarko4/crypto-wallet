@@ -1,0 +1,413 @@
+#root {
+ 
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+body{
+  overflow-y: hidden;
+}
+
+.main-grid{
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  max-height: 100vh;
+  
+}
+
+.sidebar{
+  width: 330px;
+  background-color: #201F21;
+  grid-template-rows: .75fr .3fr .1fr ;
+}
+
+.main-content{
+  display: grid;
+  grid-template-rows: 113px 1fr;
+  background-color: #111111;
+
+}
+
+.site-title{
+  font-size: 24px;
+  display: flex;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: 45px;
+}
+
+.site-title-color{
+  color: #5A189A;
+}
+
+
+
+.main-nav a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: azure;
+  padding: 10px  20px 10px 20px ;
+}
+
+
+
+.main-nav a:hover{
+  color: #5A189A;
+}
+
+.main-nav li, .second-main-nav li{
+  margin-left: 30px;
+  margin-right: 166px;
+  
+}
+
+.button-grid{
+  display: grid;
+  grid-template-columns: 30px 150px;
+  
+}
+
+
+.btn-icon{
+  text-align: center;
+}
+
+.button-grid p{
+  text-align: left;
+  padding-left: 22px;
+}
+
+.btn-active{
+  background-color: #111111b6 ;
+}
+
+.btn-active  {
+  color: #5A189A !important;
+}
+
+.second-main-nav{
+  margin-top: 160px;
+  margin-bottom: 66px;
+}
+
+.smn-btn{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: azure;
+  padding: 10px  20px 10px 20px ;
+}
+
+.themecontrol{
+  margin-bottom: 80px;
+}
+
+.main-content-nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  height: fit-content;
+  margin-top: 29px;
+}
+
+.main-content-title{
+  font-size: 24px;
+  text-align: left;
+  align-self: center;
+  margin-left: 60px;
+}
+
+.options{
+  display: flex;
+  margin-right: 56px;
+}
+
+.options input#search{
+  height: 53px;
+  width:349px ;
+  border-radius: 10px;
+}
+
+.searcbar{
+display: flex;
+}
+
+.magnifying-glass{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.noti-icon{
+  align-self:center ;
+  font-size: 26px;
+  padding: 0px 60px 0px 60px;
+}
+
+.usericon{
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  align-self: center;
+}
+
+.username{
+  align-self: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.userdrop{
+  align-self: center;
+}
+
+button.userbutton {
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+  }
+
+  .main-display{
+    margin-top: 5px;
+    grid-template-columns: 1fr .6fr;
+    gap: 28px;
+  }
+
+  .main-left{
+    grid-template-rows: .2fr 1fr 1fr;
+    margin-left: 60px;
+  }
+
+
+  .wallet-value-view{
+    text-align: left;
+  }
+
+  .asset-number{
+    font-size: 30px;
+  }
+
+  .asset-value{
+    font-size: 16px;
+  }
+
+  .widget-title{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    
+  }
+
+  .market-widget{
+    background-color: #201F21;
+    border-radius: 15px;
+    height: 380px;
+    margin-bottom: 30px;
+  }
+
+  .transaction-widget{
+    background-color: #201F21;
+    border-radius: 15px;
+    height: 280px;
+  }
+
+  .main-right{
+    margin-right: 36px;
+    height: fit-content;
+  }
+
+  .assets{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .1fr 1fr 1fr;
+    height: fit-content;
+    gap: 18px;
+  }
+
+  .assets h2{
+    text-align: start;
+  }
+
+  .assets h3{
+    text-align: end;
+  }
+
+  .asset-widget{
+    background-color: #201F21;
+    height: 180px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: .1fr .1fr .1fr;
+    gap: 15px;
+    text-align: left;
+  }
+
+  .asset-widget img{
+    border-radius: 50%;
+    height:33px ;
+    width: 33px;
+  }
+
+  .asset-widget h4{
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  .asset-widget p{
+    font-size: 25px;
+  }
+
+  p.asset-marker{
+    font-size: 20px;
+  }
+
+  .operation-widget{
+    background-color: #201F21;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .operations-nav{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .operation-pay p{
+    text-align: start;
+    padding-bottom: 5px;
+  }
+
+  .operation-widget h3{
+    font-size: 18px;
+    
+    text-align: start;
+  }
+
+  .operation-btns button{
+    padding: 5px 10px;
+    font-size: 14px;
+    height: 31px;
+  }
+
+  .operation-btns{
+    background-color: #111111;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+  }
+
+  .operation-btns button.active{
+    background-color: #201F21 !important;
+    
+  }
+
+  .pay-crypto{
+    justify-content: space-between;
+    background-color: #111111;
+    padding: 12px 10px;
+  }
+
+  .pay-amount{
+    text-align: center;
+  }
+
+ .purchase-btn{
+  background-color: #5A189A;
+  width: 100%;
+  padding: 10px ;
+ }
+ /* ----------------------------------------------
+                       MARKET VIEW  
+    --------------------------------------------- */
+
+ 
+    .top-performers{
+      padding-bottom: 30px;padding-top: 30px;
+      border-bottom: #e8e8e9 1px solid;
+      border-top: #e8e8e9 1px solid;
+    }
+
+    .market-display{
+      margin-left: 60px;
+      margin-right: 40px;
+      height: fit-content;
+    }
+    .market-card{
+      background-color: #201F21;
+      border-radius: 15px;
+      height: fit-content;
+      display: grid;
+      padding: 20px 10px;
+    }
+
+    .market-card-img{
+      width:70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+
+    .market-card section{
+      padding-top: 30px;
+    }
+
+    .card-title h2{
+      font-size: 20px;
+    }
+    .card-title h3{
+      opacity: 50%;
+    }
+
+    .market-card-price{
+      font-size: 20px;
+      align-self: center;
+    }
+
+    .performance-ind{
+      align-self: center;
+      color: forestgreen;
+    }
+
+    .market-card-price-name{
+      font-size: 15px;
+      opacity: 50%;
+    }
+
+    .position-title{
+      font-size: 24px;
+      margin-top: 15px;
+    }
+
+    .conversion{
+      margin-top: 15px;
+      align-self: center;
+    }
+
+    .market-list-item{
+      align-self: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .market-list-item img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .market-table{
+      width: 100%;
+    }
+
+    tbody{
+      overflow-y: scroll;
+    }
